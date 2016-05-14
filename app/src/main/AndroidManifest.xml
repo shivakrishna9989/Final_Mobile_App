@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.shiva.firebaselogin">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.shiva.firebaselogin.LoginActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.shiva.firebaselogin.CreateUser"
+            android:label="@string/create" />
+
+        <activity
+         android:name="com.shiva.firebaselogin.StripePaymentActivity"
+            android:label="@string/create" />
+
+        <activity
+            android:name="com.shiva.firebaselogin.Welcome"
+
+            android:screenOrientation="portrait"
+            android:label="@string/welcome" />
+
+        <activity android:name="com.shiva.firebaselogin.StripeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="eb4b2daeffe5f34e3db40bcd2845a0bf9a3cdc37"
+            /><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

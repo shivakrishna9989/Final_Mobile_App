@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">LAPP</string>
+    <string name="logout">LOGOUT</string>
+    <string name="welcome">LAPP</string>
+    <string name="username_hint">Enter Username</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="retype_password_hint">Enter Confirm password</string>
+    <string name="login">LOGIN</string>
+    <string name="create">CREATE USER</string>
+    <string name="firebase_url">https://resplendent-fire-660.firebaseio.com/service_requests</string>
+    <string name="available_services">Available Services</string>
+    <string name="baby_sitting">Baby sitting</string>
+    <string name="old_care">Old Care</string>
+    <string name="grocery_pick">Grocery Pick</string>
+    <string name="request_history">Requests History</string>
+    <string name="welcome_user">Welcome %s</string>
+    <string name="networkerror">Network Connection Error.Enable wifi/mobile data.</string>
+    <string name="empty_u_p">Incorrect Login Credentials.</string>
+    <string name="login_success">Login Successful.</string>
+    <string name="lgoin_fail">Login Fail.</string>
+    <string name="auth_error">Invalid username/password</string>
+    <string name="descServices">Services Description goes here</string>
+    <string name="Service_Payment">Services Payment</string>
+    <string name="nodeserver_ip_and_port">http://localhost:3000/checkout</string>
+    <string name="appName">Lapp Payment</string>
+
+    <string name="addPayment">Add Payment Method</string>
+    <string name="paymentMethods">Payment Methods</string>
+    <string name="com_stripe_publishable_key">pk_test_4U7bN0qMfn2dRa28NxlKRhAQ</string>
+    <string name="endingIn">Card ending in </string>
+    <string name="progressMessage">Creating Token&#8230;</string>
+    <string name="validationErrors">Validation Errors</string>
+
+    <string name="cardNumber">Card Number</string>
+    <string name="save">Save</string>
+    <string name="cvc">CVC</string>
+    <string name="total_cost">Total cost %s in USD</string>
+
+    <string name="ok">OK</string>
+
+    <string-array name="currency_array">
+        <item>Currency (optional)</item>
+        <item>Unspecified</item>
+        <item>USD</item>
+    </string-array>
+</resources>

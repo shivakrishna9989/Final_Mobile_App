@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:gravity="center"
+    android:layout_margin="10dp"
+    android:background="@drawable/login_rounded_bg"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:text="Creating User"
+        android:textColor="@android:color/white" />
+
+    <EditText
+        android:id="@+id/username"
+        style="@style/EditText"
+        android:layout_marginTop="20dp"
+        android:hint="@string/username_hint"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/password"
+        style="@style/EditText"
+        android:layout_marginTop="20dp"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/confirm"
+        style="@style/EditText"
+        android:layout_marginTop="20dp"
+        android:hint="@string/retype_password_hint"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/create"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="@string/create" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already existing user Login here"
+        android:id="@+id/existng_user_login" />
+
+</LinearLayout>
